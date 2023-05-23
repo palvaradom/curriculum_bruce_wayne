@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 24%;
+}
+
+header figure {
+    align-items: center;
+    background-color: #E6E6E6;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+}
+
+header figure img {
+    height: 85%;
+}
+
+header div {
+    align-items: center;
+    background-color: #C4C4C4;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+}
+
+header div h1 {
+    color: #005677;
+    font-size: 2.3rem;
+    letter-spacing: 0.7rem;
+    text-align: center;
+}
+
+main {
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Datos personales*/
+main #datos-personales {
+    height: 22%;
+}
+
+main #datos-personales h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    padding-left: 0.8%;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 19%;
+}
+
+main #datos-personales article {
+    height: 81%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #datos-personales article ul {
+    margin-left: 2.5%;
+    font-size: 1.1rem;
+    margin-bottom: 0.5%;
+}
+
+main #datos-personales article ul li {
+    line-height: 1.7rem;
+}
+
+main #datos-personales article ul li span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Formacion academica*/
+main #formacion-academica {
+    height: 25%;
+}
+main #formacion-academica h2 {
+    background-color: #C4C4C4;
+    padding-left: 0.8%;
+    color: #005677;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 17%;
+}
+
+main #formacion-academica article {
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #formacion-academica article ul {
+    margin-left: 1%;
+    font-size: 1.1rem;
+    list-style: none;
+    margin-bottom: 0.5%;
+}
+
+main #formacion-academica article ul li:first-child {
+    margin-bottom: 0.5%;
+}
+
+main #formacion-academica article ul li span {
+    font-weight: bold;
+}
+
+main #formacion-academica article ul li p:nth-child(2) {
+    text-indent: 4.2%;
+}
+
+/*Experiencia laboral*/
+main #experiencia-laboral {
+    height: 30%;
+}
+main #experiencia-laboral h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    padding-left: 0.8%;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #experiencia-laboral article {
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #experiencia-laboral article ul {
+    margin-left: 1%;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+main #experiencia-laboral article ul li {
+    margin-bottom: 0.5%;
+}
+
+main #experiencia-laboral article ul li span {
+    font-weight: bold;
+}
+
+main #experiencia-laboral article ul li p:nth-child(2) {
+    text-indent: 4.2%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005677;
+    height: 4%;
+}
+
+footer p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer img {
+    margin-left: 1.5%;
+    height: 50%;
+}
